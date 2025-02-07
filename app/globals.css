@@ -1,21 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@nattui/tailwind-tokenless/styles/10/index.css";
+@import "@nattui/tailwind-tokenless/styles/colors/reset.css";
+@import "@nattui/tailwind-tokenless/styles/colors/gray/mauve.css";
+@import "@nattui/tailwind-tokenless/styles/colors/primary/crimson.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  font-size: 10px;
 }
