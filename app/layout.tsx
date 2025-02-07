@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import type { PropsWithChildren } from "react"
+import "@/styles/global.css"
 import { Geist, Geist_Mono } from "next/font/google"
-import "./globals.css"
 
 const geistSans = Geist({
   subsets: ["latin"],

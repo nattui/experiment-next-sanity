@@ -1,3 +1,3 @@
 export default function RootPage() {
-  return <div className=""></div>
+  return <div className="">Hello World</div>
 }
